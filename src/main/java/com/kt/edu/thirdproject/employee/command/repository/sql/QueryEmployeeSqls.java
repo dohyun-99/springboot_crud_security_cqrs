@@ -1,4 +1,4 @@
-package com.kt.edu.thirdproject.employee.repository.sql;
+package com.kt.edu.thirdproject.employee.command.repository.sql;
 
 public class QueryEmployeeSqls {
 

@@ -1,4 +1,4 @@
-package com.kt.edu.thirdproject.employee.domain;
+package com.kt.edu.thirdproject.employee.command.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -16,7 +16,7 @@ import org.springframework.data.relational.core.mapping.Table;
 @ToString
 @Table("EMPLOYEE")
 @Schema(description = "employee Entity")
-//json 에서 해당 값 제외
+//json 에서 해당 z값 제외
 @JsonIgnoreProperties({"new"})
 public class EmployeeEntity implements Persistable<Long> {
     @Id
